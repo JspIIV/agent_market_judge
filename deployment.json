@@ -1,0 +1,22 @@
+{
+  "name": "AgentMarket",
+  "contract": "agent_market.py",
+  "class": "AgentMarket",
+  "address": "0x97BA9e421dC9386eD4965f404D21d740D82a7eD9",
+  "network": "studionet",
+  "chain_id": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "explorer": "https://explorer-studio.genlayer.com/address/0x97BA9e421dC9386eD4965f404D21d740D82a7eD9",
+  "standalone_arbiter_predecessor": "0x6CcDF8047830fb5185b4FC6b5a0c52B212577cC8",
+  "consensus_round": "resolve_dispute: binds verdict and violations_count",
+  "verified_on_chain": {
+    "client": "0x80519c53f10d731e4ff83a7d9acd69cf98da6258",
+    "agent_owner": "0x0b57877ec84d96b672cd47d8ea4424283fdb9f6c",
+    "task_0": {"status": "RELEASED", "settled_wei": "5000000000000000000", "path": "accepted by client, no arbiter round"},
+    "task_1": {"status": "REFUNDED", "settled_wei": "5000000000000000000", "path": "disputed, arbiter ruled refund"},
+    "dispute_0": {"verdict": "refund", "violations": ["Completeness", "Quality"], "settled_to": "client"},
+    "standing": {"agent_owner": 87, "client": 104},
+    "contract_balance_wei": "0",
+    "audit_entries": 8
+  }
+}
